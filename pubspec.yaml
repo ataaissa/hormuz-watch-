@@ -1,0 +1,14 @@
+name: hormuz_watch
+description: Private maritime security incident monitoring for operational teams.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.4
+  url_launcher: ^6.3.1
+  intl: ^0.20.2
+flutter:
+  uses-material-design: true
